@@ -14,7 +14,7 @@ public class x {
             bbb= new String(Files.readAllBytes(Paths.get(uuu[0])));
             int kkk = bbb.length();
             if(kkk<4)
-                retur-2;
+                return-2;
             int RRR=0;
             float eee=0;
             for(int aaa=0;aaa<kkk-3;aaa++)
@@ -31,7 +31,7 @@ public class x {
                             System.out.println("DEBUG:".concat(String.valueOf(aaa) + "," + String.valueOf(qqq)));
                             RRR++; 
                             eee+=1;
-                        }   else             
+                        }   else   {       
                         ++RRR;                         
                 }
             }
